@@ -10,13 +10,17 @@ namespace LoopExample
     {
         static void Main(string[] args)
         {
-            //new ForLoop();
-            //Console.ReadLine();
-            //ForLoop.DifferentForLoop();
-            //Console.ReadLine();
+            new ForLoop();
+            Console.ReadLine();
+            ForLoop.DifferentForLoop();
+            Console.ReadLine();
             new ForEachLoop();
             Console.ReadLine();
             ForEachLoop.ForEachWhere();
+            Console.ReadLine();
+            new WhileLoop();
+            Console.ReadLine();
+            WhileLoop.DoWhileLoop();
             Console.ReadLine();
         }
     }
